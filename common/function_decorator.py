@@ -3,8 +3,8 @@ from functools import wraps
 import streamlit as st
 import inspect
 
-from auth.User import User
-from config.helloAuthenticate import hello_authenticate
+from auth.domain import User
+from config.auth_config import hello_authenticate
 
 
 def login_required(func):

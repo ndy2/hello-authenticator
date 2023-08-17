@@ -1,8 +1,8 @@
 import streamlit as st
 from st_pages import add_page_title
 
-from auth.User import User
-from auth.decorator_login import login_required
+from auth.domain import User
+from common.function_decorator import login_required
 
 add_page_title(layout="wide")
 
